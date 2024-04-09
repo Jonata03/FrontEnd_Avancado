@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+:root{
+    --letter-color: white;
+    --principal-color: #006599
+}
+body{
+    position: relative;
+    display: flex;
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+.sidebar-container{
+    position: sticky;
+    left: 0;
+    top:0;
+    height: 100vh;
+    width: 15%;
+    padding: 5em;
+    background-color: #006599;
+  /*  display: flex;
+    flex-direction: column;*/
+}
+.sidebar-title{
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sidebar-title img{
+    width: 6em;
+    height: 6em;
+}
+.sidebar-title h2{
+    font-size: 4em;
+    margin: .3em;
+    color: var(--letter-color);
+}
+.sidebar-options{
+    display: flex;
+    flex-direction: column;
+    gap:5em;
+    list-style-type: none;
+    padding: 0;
+}
+.sidebar-options li a{
+    text-decoration: none;
+    font-size: 2em;
+    color: var(--letter-color);
+    transition: .4s;
+}
+.sidebar-options li a:hover{
+    color: #F4EF5E;
+}
+
+.hero-banner{
+    width: 100%;
+    height: 80vh;
+    /*transform: scale(100%);*/
+}
+.btn{
+    background-color: var(--principal-color);
+    color: var(--letter-color);
+    font-size: 2.3em;
+    text-decoration: none;
+    width: 17rem;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor:pointer;
+
+}
+main h2{
+    color: var(--principal-color);
+    font-size: 6em;
+    font-weight: 100;
+}
+main .main-container{
+    width: 78vw;
+    padding: 5em;
+}
+main #bem-vindo > div{
+    display: flex;
+    gap: 5em;
+}
+.img-container{
+    width: 70rem;
+    height: 40em;
+    position: relative;
+    overflow: hidden;
+}
+main #bem-vindo div img{
+    width: 100%;
+    height: 100%;
+    transform: scale(150%, 100%);
+    position: absolute;
+    bottom: 10em;
+    top: 0;
+}
+main #bem-vindo h2{
+    margin-top: 0;
+    margin-bottom: .4em;
+}
+.bem-vindo-textos{
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+}
+.bem-vindo-textos p {
+    font-size: 2em;
+    margin: 0;
+}
+
+#sobre-nos > div{
+    display: flex;
+    gap:5em;
+}
+#sobre-nos > div img{
+    width: 30rem;
+    height: 40rem;
+}
+
+.doces1{
+    display:flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    /*max-width: 93%;*/
+}
+.doces1 img:nth-child(1){
+    flex-grow: 1;
+}
+.doces1 img:nth-child(2){
+    flex-grow: 1;
+}
+.doces1 img:nth-child(3){
+    flex-grow: 1;
+}
+.doces1 img:nth-child(4){
+    flex-grow: 1;
+}
+.doces1 img:nth-child(5){
+    flex-grow: 1;
+}
+.doces1 img{
+    width: 0;
+    height: 25em;
+}
+#doces-2 > div{
+    /*width: 80vh;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#doces-2 img{
+    width: 32.5%;
+}
+#doces-3 > div{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    gap: 1em;
+}
+
+#doces-3 > div img{
+    width: 0;
+    height: 30em;
+    flex-grow: 1;
+}
+#contato {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+#contato input{
+    width:45%;
+    height: 4em;
+    border: 2px solid var(--principal-color);
+}
+#contato input::placeholder{
+    font-size: 2em;
+    color: var(--principal-color);
+}
+textarea{
+    border:2px solid var(--principal-color);
+    width:45%;
+    height: 20em;
+
+}
+textarea::placeholder{
+    font-size: 2em;
+    color: var(--principal-color);
+}
