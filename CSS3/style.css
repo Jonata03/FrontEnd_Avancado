@@ -12,3 +12,14 @@
     animation-delay: 2s;
     animation-iteration-count: 3;
 }
+/*
+display:flex; inicia o flex container
+fle-grow - da tamanho ao elemento preenchendo os espaços vazios
+flex-shrink = o contrario do grow
+flex-basis - tamanho inciaç do elemento m e o resto é preenchido pelo grow
+flex - <grow><shrink><basis>
+flex-direction - muda a direção que os elementos estão
+flex-order- muda a ordem do elementos no eixo principal
+align-items- alinha os elementos no eixo secundario
+align-self - alinha o elemento em particular
+*/
