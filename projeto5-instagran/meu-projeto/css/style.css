@@ -1,0 +1,147 @@
+:root{
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: Helvetica;
+}
+.img-celulares{
+    display: none;
+}
+.logo{
+    width: 17.5rem;
+    height: 5.1rem;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.4rem;
+}
+.espaco-login{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 4em;
+    gap: 1em;
+    width: 90%;
+    /*width: 100%;*/
+}
+.espaco-login form{
+    margin-top: 2em;
+}
+.espaco-login form input , .btn-entrar{
+    width: 100%;
+    padding: 1.2rem 0;
+    margin-bottom: 0.5rem;
+    border-radius: 3px;
+    border: 1px solid #ccc
+}
+.espaco-login form input::placeholder{
+    padding-left: 1em;
+}
+
+.espaco-login .btn-entrar{
+    background-color:#9DE1FE;
+    display: block;
+    color: white;
+    width: 100%;
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: 500;
+    border: 0;
+    margin-top: 1em;
+}
+.btn-entrar:hover{
+    background-color: #1A73E8;
+}
+.divisor-container{
+    border-top: 1px solid #ccc;
+    width: 100%;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 1em;
+    position: relative;
+    margin-bottom: 1em;
+}
+.divisor-container p{
+    position: absolute;
+    top: -2.4rem;
+    padding: 0 1.5rem;
+    left: 40%;
+    background-color: white;
+}
+.container-ajuda {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    width: 90%;
+}
+.container-facebook img{
+    width: 1.6rem;
+}
+.container-facebook{
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+}
+
+.container-ajuda a{
+    text-decoration: none;
+    color: #1a0dab;
+}
+.dowloads img{
+    width: 13.6rem;
+}
+.dowloads a{
+    text-decoration: none;
+}
+.cadastro span{
+    color: #1a0dab;
+    font-weight: bolder;
+}
+.cadastro + p{
+    font-size: .9em;
+}
+footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.footerbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.2rem;
+    width: 70%;
+    padding: 0;
+    margin-top: 5em;
+
+}
+.footerbar li{
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: #373799;
+    font-weight: bold;
+}
+footer p{
+    text-transform: uppercase;
+    color: #ccc;
+    font-size: 1.2rem;
+}

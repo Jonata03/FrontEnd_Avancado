@@ -1,0 +1,59 @@
+@media screen and (min-width: 450px) {
+    body{
+        background-color: #f4f5f5;
+        padding: 3em;
+    }
+    .img-celulares{
+        display: block;
+        position: absolute;
+        left: 23%;
+        z-index: -1;
+    }
+    .conteudo-container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .espaco-login{
+        border: 1px solid #CCCCCC;
+        margin-top: 3rem;
+        padding:2em 2em 0 ;
+        background-color: white;
+        width: 83%;
+    }
+    .cadastro{
+        border: 1px solid #ccc;
+        width:91%;
+        position: relative;
+        text-align: center;
+        background-color: white;
+        padding: 1em;
+
+    }
+    main{
+        gap: 1em;
+        width: 25em;
+        overflow: hidden;
+    }
+    main,footer{
+        position: absolute;
+    }
+    .footerbar{
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .footerbar li:nth-child(9){
+        width: 14em;
+    }
+    footer{
+        text-align: left;
+        align-items: start;
+        bottom: 7%;
+        left: 20%;
+    }
+    footer > p{
+        margin: 0;
+    }
+
+}
