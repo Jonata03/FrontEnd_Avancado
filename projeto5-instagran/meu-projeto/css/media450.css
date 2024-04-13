@@ -1,59 +1,73 @@
 @media screen and (min-width: 450px) {
-    body{
+    body {
         background-color: #f4f5f5;
         padding: 3em;
     }
-    .img-celulares{
+
+    .img-celulares {
         display: block;
         position: absolute;
         left: 23%;
         z-index: -1;
     }
-    .conteudo-container{
+
+    .conteudo-container {
         display: flex;
         justify-content: space-between;
     }
-    .espaco-login{
+
+    .espaco-login {
         border: 1px solid #CCCCCC;
         margin-top: 3rem;
-        padding:2em 2em 0 ;
+        padding: 2em 2em 0;
         background-color: white;
         width: 83%;
     }
-    .cadastro{
+
+    .cadastro {
         border: 1px solid #ccc;
-        width:91%;
+        width: 91%;
         position: relative;
         text-align: center;
         background-color: white;
-        padding: 1em;
-
+        padding: .5em 1em;
     }
-    main{
-        gap: 1em;
+
+    .espaco-login form input, .btn-entrar {
+        padding: .8em 0;
+    }
+
+    main {
+        margin-left: 5em;
         width: 25em;
         overflow: hidden;
+        gap: 1rem
     }
-    main,footer{
+
+    main, footer {
         position: absolute;
     }
-    .footerbar{
+
+    .footerbar {
         flex-direction: row;
         flex-wrap: nowrap;
         width: 100%;
         margin-bottom: 0;
     }
-    .footerbar li:nth-child(9){
+
+    .footerbar li:nth-child(9) {
         width: 14em;
     }
-    footer{
+
+    footer {
         text-align: left;
         align-items: start;
         bottom: 7%;
         left: 20%;
     }
-    footer > p{
-        margin: 0;
+
+    footer > p {
+        margin-top: 1em;
     }
 
 }
